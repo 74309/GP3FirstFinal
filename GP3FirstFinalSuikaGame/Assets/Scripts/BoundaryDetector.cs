@@ -6,7 +6,7 @@ public class BoundaryDetector : MonoBehaviour
 {
     public GameManager gameManager;
     public float checkDelay = 1.5f;
-    public float topBoundaryY = 14f;
+    public float topBoundaryY = 4.5f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

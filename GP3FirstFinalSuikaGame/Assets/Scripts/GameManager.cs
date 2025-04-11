@@ -7,8 +7,8 @@ public class GameManager : MonoBehaviour
 {
     [Header("Game Settings")]
     public float dropZoneWidth = 10f;
-    public float dropZoneHeight = 15f;
-    public float dropHeight = 14f;
+    public float dropZoneHeight = 4.2f;
+    public float dropHeight = 3.82f;
     public int scorePerMerge = 100;
     public int maxFruitLevel = 11; // Watermelon is level 11
 
