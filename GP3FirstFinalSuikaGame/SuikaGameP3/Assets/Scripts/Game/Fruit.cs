@@ -3,11 +3,11 @@ using UnityEngine;
 public class Fruit : MonoBehaviour {
     /* -------------------------------- Variables ------------------------------- */
     [Header("Fruit")]
-    public int fruitID;
-    public bool collidedWithSameFruit = false;
+    public int fruitID; //Labels the fruit so when the merge happens not every fruit canm merge with each other and only fruits with the same Ids
+    public bool collidedWithSameFruit = false; //Tells if the fruit is colliding with a fruit of the same ID
 
     // Private
-    private GameManager gameManager;
+    private GameManager gameManager; //Brings gamemanager 
 
 
     /* ------------------------------- Unity Func ------------------------------- */

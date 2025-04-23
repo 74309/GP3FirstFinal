@@ -3,16 +3,16 @@ using UnityEngine;
 
 public class LoseArea : MonoBehaviour {
     /* -------------------------------- Variables ------------------------------- */
-    public float loseTime = 3f;
-    public float blinkTime = 0.8f;
+    public float loseTime = 3f;//Starts lose timer
+    public float blinkTime = 0.8f; //Start blink timer to tell player fruit is out of bounds
     
     [Header("Blinking settings")]
     public Color blinkStartColor = Color.white; // Full alpha color
     public Color blinkEndColor = new Color(1f, 1f, 1f, 0f); // 0 alpha color
-    public float blinkSpeed = 5f;
+    public float blinkSpeed = 5f; //Speed of the blinking that tells player fruit is out of bounds
 
     // Private
-    private Dictionary<GameObject, float> losingFruits;
+    private Dictionary<GameObject, float> losingFruits; //Tells which fruits are still in box after loss to start deleting them
     private GameManager gameManager;
 
 

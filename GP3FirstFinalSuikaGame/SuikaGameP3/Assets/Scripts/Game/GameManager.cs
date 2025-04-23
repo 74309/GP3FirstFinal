@@ -42,6 +42,7 @@ public class GameManager : MonoBehaviour {
     public bool gameLost = false;
     public bool murgedFruitKeepMovement = true;
     public float fruitDestroyScaleIncrement = 0.05f;
+    public GameObject gameOverUI;
 
     // Private
     private bool hasGameLostBeenCalled = false;
@@ -267,7 +268,9 @@ public class GameManager : MonoBehaviour {
     }
 
     // Function that ends the game when its lost
-    void GameLost() {
+    void GameLost() 
+    {
+        gameOverUI.SetActive(true);
         hasGameLostBeenCalled = true;
         readyToDrop = false;
         StartCoroutine(ClearBoard()); // Clear the board
