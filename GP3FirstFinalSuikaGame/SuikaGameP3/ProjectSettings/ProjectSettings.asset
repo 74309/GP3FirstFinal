@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Fruit Basket
+  productName: AKASuikaGameRecreationP3
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
@@ -40,8 +40,6 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: 6d00c568d2b5af14eb9b562a52866c36, type: 3}
-    duration: 2
   - logo: {fileID: 10404, guid: 0000000000000000f000000000000000, type: 0}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
@@ -164,7 +162,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Standalone: com.DefaultCompany.AKASuikaGameRecreationP3
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -290,7 +289,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 709e587f588d33f4db00bb0055953343, type: 3}
+      m_Icon: {fileID: 2800000, guid: 098bb8d643ebcb746a38697f12acb5ac, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -921,8 +920,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Fruit Basket
-  metroPackageVersion: 
+  metroPackageName: FruitBasket
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -930,7 +929,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Fruit Basket
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Fruit Basket
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
